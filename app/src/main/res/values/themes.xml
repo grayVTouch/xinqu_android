@@ -1,6 +1,7 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Theme.Xinqu" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+<!--    <style name="Theme.Xinqu" parent="Theme.MaterialComponents.DayNight.NoActionBar">-->
+    <style name="Theme.Xinqu" parent="Theme.MaterialComponents.Light.NoActionBar">
 
         <!-- 按钮等背景颜色 -->
         <item name="colorPrimary">@color/teal_200</item>
@@ -19,5 +20,24 @@
         <!-- Status bar color. -->
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
+
+        <!-- android 全屏 -->
+        <item name="android:windowFullscreen">true</item>
+
+        <!-- 设置 windows 过渡效果： 禁用窗口的预览动画 -->
+        <item name="android:windowDisablePreview">false</item>
+
+        <!-- 异形屏适配 不用理会错误信息，毕竟不是所有的手机都是异形屏 -->
+        <item name="android:windowLayoutInDisplayCutoutMode">shortEdges</item>
+
+        <!-- 是否绘制系统栏背景 -->
+        <item name="android:windowDrawsSystemBarBackgrounds">false</item>
+
+        <!-- 设置窗口半透明：不建议设置，会导致启动有明显的卡顿感觉 -->
+        <item name="android:windowIsTranslucent">false</item>
+
+        <!-- windows 背景图片（也称之为 开屏页） -->
+<!--        <item name="android:windowBackground">@drawable/background</item>-->
+
     </style>
 </resources>

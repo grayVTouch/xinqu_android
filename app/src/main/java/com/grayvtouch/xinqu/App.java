@@ -16,7 +16,7 @@ public class App extends AppCompatActivity
 
     public void openViewActivity(View view)
     {
-        Intent intent = new Intent(this ,MyView.class);
+        Intent intent = new Intent(this , MyView.class);
         this.startActivity(intent);
     }
 }

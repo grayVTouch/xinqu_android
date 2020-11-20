@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">xinqu</string>
+
+    <string name="index_background_description">图片描述</string>
 </resources>

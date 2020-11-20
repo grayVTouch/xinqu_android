@@ -6,15 +6,18 @@
     android:layout_height="match_parent"
     android:gravity="center"
     >
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="视图学习"
-        android:onClick="openViewActivity"
-        />
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="欢迎使用 兴趣部落 app"
+        android:text="描述"
         />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="我很好-打开新的 activity"
+        android:onClick="openViewActivity"
+        />
+
 </LinearLayout>
